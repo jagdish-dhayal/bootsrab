@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css
+">
+    <title>Document</title>
+    <style>
+        a:hover {
+            text-decoration: none;
+        }
+
+        .section {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+
+        #header {
+            background: red;
+        }
+
+        #menu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #menu li {
+            display: inline-block;
+
+        }
+
+        #menu li a {
+            color: #fff;
+            font-size: large;
+            padding: 15px 10px;
+            display: block;
+        }
+
+        #menu li a:hover {
+            background: green;
+        }
+
+        #logo {
+            font-size: 2rem;
+            color: #fff;
+            margin-top: 5px;
+        }
+
+        #banner {
+            background: url('images/b1\ geometric.jpg') no-repeat 0 0;
+            background-size: cover;
+        }
+
+        #logo {
+            width: 100px;
+            height: 50px;
+            border-radius: 50%;
+            padding-bottom: 2px;
+        }
+
+        .banner-title {
+            padding-top: 5rem;
+        }
+
+        .banner-title-2 {
+            padding-top: 4rem;
+
+        }
+
+        .banner-title h1 {
+            background: rgba(255, 255, 255, 0.8);
+            display: inline-block;
+            padding: 10px;
+            margin: 0;
+        }
+
+        .banner-title p.lead {
+            background: rgba(231, 76, 60, 0.8);
+            color: #fff;
+            padding: 10px;
+        }
+
+        .pictur {
+            display: block;
+            margin: 0px auto;
+            border-radius: 10%;
+            padding-bottom: 20px;
+            position: relative;
+
+
+        }
+
+        .text {
+            text-align: center;
+            color: #fff;
+
+        }
+
+        .service-box {
+            text-align: center;
+        }
+
+        .service-box i {
+            color: rgb(65, 117, 65);
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        .section h2.section-head {
+            color: #000;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .section h2.section-head::after {
+            background: #e74c3c;
+            content: " ";
+            display: block;
+            width: 100px;
+            height: 3px;
+            margin: 20px auto;
+        }
+        #testimonials{
+            color: #fff;
+            background: url(images/bgimage1.jpg) no-repeat 0 0;
+            background-size: cover;
+            padding: 50px 0;
+            position: relative;
+        }
+       #testimonials::before{
+        background: rgba(52, 73, 94,1.0);
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+       }
+       #testimonials img{
+        border-radius: 20%;
+    
+       }
+       .pictur{
+        position: relative;
+       }
+       .text{
+        color: #000;
+        content: "";
+        position: absolute;
+        top: 240px;
+        width: 100%;
+        height: 100%;
+       }
+     
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img id="logo" src="images/logo2.jpg" alt="">
+                </div>
+                <div class="col-md-8">
+                    <ul id="menu" class="float-md-right">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">contact</a></li>
+                        <li><a href="">Gallary</a></li>
+                        <li><a href="">Help </a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="banner" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="banner-title">
+                        <h1 class="title">Some Heading Goes Here</h1>
+                        <p class="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, aliquid.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="banner-title-2">
+                        <img class="pictur" src="images/bil gates.png" alt="">
+                        <h5 class="text">Bill gates</h5>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container section">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="section-head">Some Thing Goes Here</h2>
+            </div>
+            <div class="col-md-4">
+                <div class="service-box">
+                    <i class="fa-solid fa-2x fa-anchor"></i>
+                    <h3>Some Heading</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, animi.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-box">
+                    <i class="fa-solid fa-2x fa-chart-simple"></i>
+                    <h3>Some Heading</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, animi.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="service-box">
+                    <i class="fa-sharp fa-2x fa-solid fa-gem"></i>
+                    <h3>Some Heading</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, animi.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="testimonials" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="section-head">testimonials</h2>
+                </div>
+                <div class="col-md-6">
+                    <div class="testimonial">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, accusantium.</p>
+                        <img src="images/bil gates.png" alt="">
+                        <div class="author">Bill gates</div>
+                        <div class="author-company">Mircosoft</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="testimonial">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, accusantium.</p>
+                        <img src="images/stave jobs.JPG" alt="">
+                        <div class="author">Steve jobs</div>
+                        <div class="author-company">Apple</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</html>
